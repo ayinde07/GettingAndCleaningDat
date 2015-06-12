@@ -9,6 +9,7 @@ Conceptually, this process summarizes the original data by 1. Subsetting the dat
 The final dataset is written to "tidy.txt" and can be read in with the following R command:
 
 verify <- read.table("data/tidy.txt", sep=" ", headers=TRUE)
+
 Data Cleaning Description
 
 Cleaning data labels
@@ -21,11 +22,11 @@ The data was divided in two different ways. First, it was partioned into train a
 
 For each of train and test, the measurements file as read in using the cleaned up columns from above. Then the subject id and activity id were read in and combined (via cbind) with the measurements data. Then the complete train and test sets were merged together with rbind.
 
-Filtering data
+##Filtering data
 
 From the fully merged data frame, a subset of columns was extracted where the columns indicated a mean or a standard deviation, along with the subject id and activity id. The activity ids were then replaced with corresponding activity labels.
 
-Summarizing the data
+##Summarizing the data
 
 For each subject/activity pair, all the data points for a given column were averaged together and the resultant data frame written to file.
 
@@ -39,8 +40,8 @@ Each subsequent column is an average of values for a give Subject/AcivityLevel i
 
 The label for each variable is a combination of these facets:
 
-time, frequency, or angle
-Body or Gravity
+*time, frequency, or angle
+*Body or Gravity
 Accelerometer or Gyroscope
 Jerk (or empty)
 Magnitude (or empty)

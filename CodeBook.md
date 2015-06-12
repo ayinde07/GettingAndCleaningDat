@@ -57,7 +57,6 @@ The label for each variable is a combination of these facets:
 7. Freq (or empty)
 8. X, Y, or Z axis
 9. Complete list of columns
-
 10. Subject
 11. Activity
 12. timeBodyAccelerometerMeanX
@@ -99,53 +98,53 @@ The label for each variable is a combination of these facets:
 48. frequencyBodyGyroscopeMeanFreqY
 49. frequencyBodyGyroscopeMeanFreqZ
 50. frequencyBodyAccelerometerMagnitudeMean
-frequencyBodyAccelerometerMagnitudeMeanFreq
-frequencyBodyAccelerometerJerkMagnitudeMean
-frequencyBodyAccelerometerJerkMagnitudeMeanFreq
-frequencyBodyGyroscopeMagnitudeMean
-frequencyBodyGyroscopeMagnitudeMeanFreq
-frequencyBodyGyroscopeJerkMagnitudeMean
-frequencyBodyGyroscopeJerkMagnitudeMeanFreq
-angletBodyAccelerometerMeangravity
-angletBodyAccelerometerJerkMeangravityMean
-angletBodyGyroscopeMeangravityMean
-angletBodyGyroscopeJerkMeangravityMean
-angleXgravityMean
-angleYgravityMean
-angleZgravityMean
-timeBodyAccelerometerStdDevX
-timeBodyAccelerometerStdDevY
-timeBodyAccelerometerStdDevZ
-timeGravityAccelerometerStdDevX
-timeGravityAccelerometerStdDevY
-timeGravityAccelerometerStdDevZ
-timeBodyAccelerometerJerkStdDevX
-timeBodyAccelerometerJerkStdDevY
-timeBodyAccelerometerJerkStdDevZ
-timeBodyGyroscopeStdDevX
-timeBodyGyroscopeStdDevY
-timeBodyGyroscopeStdDevZ
-timeBodyGyroscopeJerkStdDevX
-timeBodyGyroscopeJerkStdDevY
-timeBodyGyroscopeJerkStdDevZ
-timeBodyAccelerometerMagnitudeStdDev
-timeGravityAccelerometerMagnitudeStdDev
-timeBodyAccelerometerJerkMagnitudeStdDev
-timeBodyGyroscopeMagnitudeStdDev
-timeBodyGyroscopeJerkMagnitudeStdDev
-frequencyBodyAccelerometerStdDevX
-frequencyBodyAccelerometerStdDevY
-frequencyBodyAccelerometerStdDevZ
-frequencyBodyAccelerometerJerkStdDevX
-frequencyBodyAccelerometerJerkStdDevY
-frequencyBodyAccelerometerJerkStdDevZ
-frequencyBodyGyroscopeStdDevX
-frequencyBodyGyroscopeStdDevY
-frequencyBodyGyroscopeStdDevZ
-frequencyBodyAccelerometerMagnitudeStdDev
-frequencyBodyAccelerometerJerkMagnitudeStdDev
-frequencyBodyGyroscopeMagnitudeStdDev
-frequencyBodyGyroscopeJerkMagnitudeStdDev
+51. frequencyBodyAccelerometerMagnitudeMeanFreq
+52. frequencyBodyAccelerometerJerkMagnitudeMean
+53. frequencyBodyAccelerometerJerkMagnitudeMeanFreq
+54. frequencyBodyGyroscopeMagnitudeMean
+55. frequencyBodyGyroscopeMagnitudeMeanFreq
+56. frequencyBodyGyroscopeJerkMagnitudeMean
+57. frequencyBodyGyroscopeJerkMagnitudeMeanFreq
+58. angletBodyAccelerometerMeangravity
+59. angletBodyAccelerometerJerkMeangravityMean
+60. angletBodyGyroscopeMeangravityMean
+61. angletBodyGyroscopeJerkMeangravityMean
+62. angleXgravityMean
+63. angleYgravityMean
+64. angleZgravityMean
+65. timeBodyAccelerometerStdDevX
+66. timeBodyAccelerometerStdDevY
+67. timeBodyAccelerometerStdDevZ
+68. timeGravityAccelerometerStdDevX
+69. timeGravityAccelerometerStdDevY
+70. timeGravityAccelerometerStdDevZ
+71. timeBodyAccelerometerJerkStdDevX
+72. timeBodyAccelerometerJerkStdDevY
+73. timeBodyAccelerometerJerkStdDevZ
+74. timeBodyGyroscopeStdDevX
+75. timeBodyGyroscopeStdDevY
+76. timeBodyGyroscopeStdDevZ
+77. timeBodyGyroscopeJerkStdDevX
+78. timeBodyGyroscopeJerkStdDevY
+79. timeBodyGyroscopeJerkStdDevZ
+80. timeBodyAccelerometerMagnitudeStdDev
+81. timeGravityAccelerometerMagnitudeStdDev
+82. timeBodyAccelerometerJerkMagnitudeStdDev
+83. timeBodyGyroscopeMagnitudeStdDev
+84. timeBodyGyroscopeJerkMagnitudeStdDev
+85. frequencyBodyAccelerometerStdDevX
+86. frequencyBodyAccelerometerStdDevY
+87. frequencyBodyAccelerometerStdDevZ
+88. frequencyBodyAccelerometerJerkStdDevX
+89. frequencyBodyAccelerometerJerkStdDevY
+90. frequencyBodyAccelerometerJerkStdDevZ
+91. frequencyBodyGyroscopeStdDevX
+92. frequencyBodyGyroscopeStdDevY
+93. frequencyBodyGyroscopeStdDevZ
+94. frequencyBodyAccelerometerMagnitudeStdDev
+95. frequencyBodyAccelerometerJerkMagnitudeStdDev
+96. frequencyBodyGyroscopeMagnitudeStdDev
+97. frequencyBodyGyroscopeJerkMagnitudeStdDev
 
 ------
                                   Data description from source

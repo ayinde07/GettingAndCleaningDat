@@ -41,16 +41,16 @@ For each subject/activity pair, all the data points for a given column were aver
       Data Column Description
  
 The first two columns identify the person and the activity engaged in.
+1. Subject - Identifier for the subject providing the data, ranging from 1 to 30.
 
-Subject - Identifier for the subject providing the data, ranging from 1 to 30.
-Activity - A label for the level activity of a data point. One of "WALKING", "WALKING_UPSTAIRS", "WALKING_DOWNSTAIRS", "SITTING", "STANDING", or "LAYING".
+2. Activity - A label for the level activity of a data point. One of "WALKING", "WALKING_UPSTAIRS", "WALKING_DOWNSTAIRS", "SITTING", "STANDING", or "LAYING".
 
 Each subsequent column is an average of values for a give Subject/AcivityLevel in the range -1 to 1. See below for more detail on the variables and their derivation.
 
 The label for each variable is a combination of these facets:
 
-*.time, frequency, or angle 
-Body or Gravity
+1. time, frequency, or angle 
+2. Body or Gravity
 Accelerometer or Gyroscope
 Jerk (or empty)
 Magnitude (or empty)

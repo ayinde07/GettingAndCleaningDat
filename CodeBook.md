@@ -1,7 +1,7 @@
 ## Getting and Cleaning Data - Course Project
 
  ----
-Dataset Overview
+                                 Dataset Overview
 
 The original data for this process was collected from a smartphone by a variety of subjects while engaging in several activties. All subjects engaged in all activities. Raw data was gathered from the phone's accelerometer and its gyroscope. The values used in this process were derived by a variety of calculations (described below).
 
@@ -16,25 +16,26 @@ verify <- read.table("data/tidy.txt", sep=" ", headers=TRUE)
  ----
   ----
  
-Cleaning data labels
+      Cleaning data labels
 
 The input labels used abbreviated forms of descriptive terms. Abbreviations were expanded and duplications and punctuation were removed so that "tBodyAccJerk-std()-X" became "timeBodyAccelerometerJerkStdDevX" and "fBodyBodyGyroMag-mean()" became "frequencyBodyGyroscopeMagnitudeMean".
  ----
-Merging data
+      Merging data
 
 The data was divided in two different ways. First, it was partioned into train and test subsets. Each of those was then divided into a measurements file, a subject identifier file, and an activity code file. There was also a single activity label file which paired the numeric code to a string label.
 
 For each of train and test, the measurements file as read in using the cleaned up columns from above. Then the subject id and activity id were read in and combined (via cbind) with the measurements data. Then the complete train and test sets were merged together with rbind.
  ----
-Filtering data
+     Filtering data
 
 From the fully merged data frame, a subset of columns was extracted where the columns indicated a mean or a standard deviation, along with the subject id and activity id. The activity ids were then replaced with corresponding activity labels.
  ----
- Summarizing the data
+ 
+      Summarizing the data
  
 For each subject/activity pair, all the data points for a given column were averaged together and the resultant data frame written to file.
  ----
-Data Column Description
+      Data Column Description
  
 The first two columns are for identifying the person and the activity they were engaging in for the data collection.
 

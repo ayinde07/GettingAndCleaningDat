@@ -23,8 +23,8 @@ Now, the script creates a new data frame with the averages of all data points fo
 
 This tidy data frame is then written to file.
 
-
- #Project Instructions
+ ----
+ Project Instructions
  ----
  1. Merges the training and the test sets to create one data set.
  2. Extracts only the measurements on the mean and standard deviation for each measurement. 

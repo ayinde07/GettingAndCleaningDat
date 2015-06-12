@@ -42,7 +42,6 @@ For each subject/activity pair, all the data points for a given column were aver
  
 The first two columns identify the person and the activity engaged in.
 1. Subject - Identifier for the subject providing the data, ranging from 1 to 30.
-
 2. Activity - A label for the level activity of a data point. One of "WALKING", "WALKING_UPSTAIRS", "WALKING_DOWNSTAIRS", "SITTING", "STANDING", or "LAYING".
 
 Each subsequent column is an average of values for a give Subject/AcivityLevel in the range -1 to 1. See below for more detail on the variables and their derivation.
@@ -51,55 +50,55 @@ The label for each variable is a combination of these facets:
 
 1. time, frequency, or angle 
 2. Body or Gravity
-Accelerometer or Gyroscope
-Jerk (or empty)
-Magnitude (or empty)
-Mean or StdDev(standard deviation)
-Freq (or empty)
-X, Y, or Z axis
-Complete list of columns
+3. Accelerometer or Gyroscope
+4. Jerk (or empty)
+5. Magnitude (or empty)
+6. Mean or StdDev(standard deviation)
+7. Freq (or empty)
+8. X, Y, or Z axis
+9. Complete list of columns
 
-Subject
-Activity
-timeBodyAccelerometerMeanX
-timeBodyAccelerometerMeanY
-timeBodyAccelerometerMeanZ
-timeGravityAccelerometerMeanX
-timeGravityAccelerometerMeanY
-timeGravityAccelerometerMeanZ
-timeBodyAccelerometerJerkMeanX
-timeBodyAccelerometerJerkMeanY
-timeBodyAccelerometerJerkMeanZ
-timeBodyGyroscopeMeanX
-timeBodyGyroscopeMeanY
-timeBodyGyroscopeMeanZ
-timeBodyGyroscopeJerkMeanX
-timeBodyGyroscopeJerkMeanY
-timeBodyGyroscopeJerkMeanZ
-timeBodyAccelerometerMagnitudeMean
-timeGravityAccelerometerMagnitudeMean
-timeBodyAccelerometerJerkMagnitudeMean
-timeBodyGyroscopeMagnitudeMean
-timeBodyGyroscopeJerkMagnitudeMean
-frequencyBodyAccelerometerMeanX
-frequencyBodyAccelerometerMeanY
-frequencyBodyAccelerometerMeanZ
-frequencyBodyAccelerometerMeanFreqX
-frequencyBodyAccelerometerMeanFreqY
-frequencyBodyAccelerometerMeanFreqZ
-frequencyBodyAccelerometerJerkMeanX
-frequencyBodyAccelerometerJerkMeanY
-frequencyBodyAccelerometerJerkMeanZ
-frequencyBodyAccelerometerJerkMeanFreqX
-frequencyBodyAccelerometerJerkMeanFreqY
-frequencyBodyAccelerometerJerkMeanFreqZ
-frequencyBodyGyroscopeMeanX
-frequencyBodyGyroscopeMeanY
-frequencyBodyGyroscopeMeanZ
-frequencyBodyGyroscopeMeanFreqX
-frequencyBodyGyroscopeMeanFreqY
-frequencyBodyGyroscopeMeanFreqZ
-frequencyBodyAccelerometerMagnitudeMean
+10. Subject
+11. Activity
+12. timeBodyAccelerometerMeanX
+13. timeBodyAccelerometerMeanY
+14. timeBodyAccelerometerMeanZ
+15. timeGravityAccelerometerMeanX
+16. timeGravityAccelerometerMeanY
+17. timeGravityAccelerometerMeanZ
+18. timeBodyAccelerometerJerkMeanX
+19. timeBodyAccelerometerJerkMeanY
+20. timeBodyAccelerometerJerkMeanZ
+21. timeBodyGyroscopeMeanX
+22. timeBodyGyroscopeMeanY
+23. timeBodyGyroscopeMeanZ
+24. timeBodyGyroscopeJerkMeanX
+25. timeBodyGyroscopeJerkMeanY
+26. timeBodyGyroscopeJerkMeanZ
+27. timeBodyAccelerometerMagnitudeMean
+28. timeGravityAccelerometerMagnitudeMean
+29. timeBodyAccelerometerJerkMagnitudeMean
+30. timeBodyGyroscopeMagnitudeMean
+31. timeBodyGyroscopeJerkMagnitudeMean
+32. frequencyBodyAccelerometerMeanX
+33. frequencyBodyAccelerometerMeanY
+34. frequencyBodyAccelerometerMeanZ
+35. frequencyBodyAccelerometerMeanFreqX
+36. frequencyBodyAccelerometerMeanFreqY
+37. frequencyBodyAccelerometerMeanFreqZ
+38. frequencyBodyAccelerometerJerkMeanX
+39. frequencyBodyAccelerometerJerkMeanY
+40. frequencyBodyAccelerometerJerkMeanZ
+41. frequencyBodyAccelerometerJerkMeanFreqX
+42. frequencyBodyAccelerometerJerkMeanFreqY
+43. frequencyBodyAccelerometerJerkMeanFreqZ
+44. frequencyBodyGyroscopeMeanX
+45. frequencyBodyGyroscopeMeanY
+46. frequencyBodyGyroscopeMeanZ
+47. frequencyBodyGyroscopeMeanFreqX
+48. frequencyBodyGyroscopeMeanFreqY
+49. frequencyBodyGyroscopeMeanFreqZ
+50. frequencyBodyAccelerometerMagnitudeMean
 frequencyBodyAccelerometerMagnitudeMeanFreq
 frequencyBodyAccelerometerJerkMagnitudeMean
 frequencyBodyAccelerometerJerkMagnitudeMeanFreq
@@ -147,7 +146,10 @@ frequencyBodyAccelerometerMagnitudeStdDev
 frequencyBodyAccelerometerJerkMagnitudeStdDev
 frequencyBodyGyroscopeMagnitudeStdDev
 frequencyBodyGyroscopeJerkMagnitudeStdDev
-Data description from source
+
+------
+                                  Data description from source
+------
 
 The features selected for this database come from the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ. These time domain signals (prefix 't' to denote time) were captured at a constant rate of 50 Hz. Then they were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. Similarly, the acceleration signal was then separated into body and gravity acceleration signals (tBodyAcc-XYZ and tGravityAcc-XYZ) using another low pass Butterworth filter with a corner frequency of 0.3 Hz.
 
